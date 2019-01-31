@@ -3,12 +3,12 @@
         <center><h2>My Tasks</h2></center>
 
 <div class="row">
-  <div class="column" style="background-color:#FAEBD7;">
+  <div class="column" style="background-color:#0000FF;">
     <h2><u>My Todo List</u></h2>
-    <p><input type="checkbox">Play fetch with simba<br>
-       <input type="checkbox">Eat<br>
-       <input type="checkbox">Workout<br>
-       <input type="checkbox">Sleep<br>
+    <p><input type="checkbox">meeting<br>
+       <input type="checkbox">gym<br>
+       <input type="checkbox">meal prep<br>
+       <input type="checkbox">homework<br>
     </p>
   </div>
   <div class="column" style="background-color:#fFAEBD7;">
@@ -21,7 +21,7 @@
     </p>
   </div>
   <div class="row" style="background-color:#FAEBD7;">
-    <button class="button" v-on:click="addToDoItem">Delete</button>
+    <button class="button" v-on:click="addToDoItem">Remove</button>
 
   </div>
   
@@ -31,7 +31,7 @@
         
         <div></div>
 
-            <button class="button" v-on:click="addToDoItem">Add</button>
+            <button class="button" v-on:click="addToDoItem">Insert</button>
         </div>
         
 
